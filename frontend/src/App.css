@@ -33,11 +33,13 @@ input {
   border-bottom: 2px solid #cbd5e1;
   border-radius: 0;
   box-sizing: border-box;
-  background-color: transparent;
+  background-color: white;
+  color: #1e293b;
   font-size: 15px;
 }
-
-
+input::placeholder {
+  color: #64748b;
+}
 input:focus {
   outline: none;
   border-bottom: 2px solid #2563eb;
