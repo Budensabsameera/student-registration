@@ -1,5 +1,3 @@
-
-
 # Java
 backend/target/
 *.class
@@ -7,6 +5,9 @@ backend/target/
 # IntelliJ
 .idea/
 *.iml
+
+# VS Code
+.vscode/
 
 # Node
 frontend/node_modules/
