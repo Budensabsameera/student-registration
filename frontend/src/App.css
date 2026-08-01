@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #eef2f7;
+}
+
+
+.container {
+  width: 500px;
+  margin: 50px auto;
+}
+
+
+h1 {
+  text-align: center;
+  color: #1e293b;
+}
+
+
+.form-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 6px 18px rgba(15, 23, 42, 0.12);
+}
+
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #cbd5e1;
+  border-radius: 0;
+  box-sizing: border-box;
+  background-color: transparent;
+  font-size: 15px;
+}
+
+
+input:focus {
+  outline: none;
+  border-bottom: 2px solid #2563eb;
+  background-color: white;
+}
+
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background-color: #1e40af;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+
+.student-card {
+  background: white;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(15, 23, 42, 0.1);
+}
